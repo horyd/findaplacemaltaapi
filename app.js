@@ -4,10 +4,7 @@ var express = require('express'),
 	passport = require('passport'),
 	config = require('./config/config'),
 	app = express(),
-  cors = require('cors')
 	port = process.env.PORT || 3000;
- 
-app.use(cors());
 
 // Connect to mongodb
 var connect = function () {
