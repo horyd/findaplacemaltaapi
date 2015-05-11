@@ -1,0 +1,49 @@
+{
+  "name": "findaplacemaltaapi",
+  "description": "The API for FindAPlaceMalta.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jaryd Carolin",
+    "email": "prods3@gmail.com"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "scripts": {
+    "start": "app.js",
+    "test": "test/test.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "bcrypt": "0.8.2",
+    "body-parser": "^1.8.2",
+    "braintree": "^1.23.0",
+    "cors": "^2.5.3",
+    "express": "^4.9.3",
+    "express-sanitized": "^0.5.1",
+    "lodash": "^3.2.0",
+    "mandrill-api": "^1.0.41",
+    "method-override": "^2.2.0",
+    "moment": "^2.10.2",
+    "mongoose": "3.8",
+    "mongoose-validator": "^1.0.3",
+    "mongoose-deep-populate": "^1.1.0",
+    "morgan": "^1.5.2",
+    "passport": "^0.2.1",
+    "passport-custom": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-localapikey": "0.0.3",
+    "shortid": "2.2.2",
+    "winston": "^0.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "supertest": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/horyd/findaplacemaltaapi"
+  }
+}
